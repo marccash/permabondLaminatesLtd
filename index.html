@@ -1,0 +1,168 @@
+<html><head>
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="js/core.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="mobileMenu"><a onclick="mmenu();"><img src="images/mmenu.png"></a>
+		<div id="mmenu" class="closeMMenu">
+			<ul id="mmList">
+				<li onclick="close_mmenu();" class="mmitemMainImage">
+					<a href="http://formica.com" target="_blank"><img src="images/formicalogo.png" title="Formica"></a>
+					<a href="http://polyrey.com" target="_blank"><img src="images/polyreylogo.jpg"  title="Polyrey"></a>
+				</li>
+				<li onclick="close_mmenu();" class="mmitemMain Home"><a href="#">Home</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain contactUs"><a onclick="toggleContactPane('contact')" href="#">Contact us</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain findUs"><a onclick="toggleContactPane('map')" href="#">Find us</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain"><a href="dept1.html">Health care and Education</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 1</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 2</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 3</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 4</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 5</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain"><a href="dept2.html">Bespoke services</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 1</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 2</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 3</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 4</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 5</a></li>
+				<!--<li onclick="close_mmenu();" class="mmitemMain"><a href="dept3.html">Dept 3</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 1</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 2</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 3</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 4</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 5</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain"><a href="dept4.html">Dept 4</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 1</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 2</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 3</a></li>
+				<li style="margin-bottom:10px" onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 4</a></li>-->
+			</ul>
+		</div>
+	</div>
+	<div id="surround">
+	<div id="contactPane"><span id="closeContactPane" onclick="toggleContactPane()"><img src="images/close.jpg"></span><iframe id="contactFrame" style="display: none;"></iframe></div>
+	<div id="topCornerImage"></div>
+	<div><a  id="formicaLink" href="http://www.formica.com" target="_blank" title="Formica"></a></div>
+	<div><a id="polyreyLink" href="http://www.polyrey.com" target="_blank" title="Polyrey"></a></div>
+	<div id="topHeader"><a href="index.html" title="Permabond Laniates Ltd"><img id="logo" src="images/permabondlogo.png"></a></div>
+	<div id="contactMenu">
+		<ul id="contactMenuList">
+			<li class="navTop"><a onclick="toggleContactPane('contact')" href="#">Contact us</a></li>
+			<li class="navTop"><a onclick="toggleContactPane('map')" href="#">Find us</a></li>
+			<li class="navTop"><a href="dept1.html">Health care and Education</a></li>
+			<li class="navTop"><a href="dept2.html">Bespoke services</a></li>
+			<!--<li class="navTop"><a href="dept3.html">Dept 3</a></li>
+			<li class="navTop"><a href="dept4.html">Dept 4</a></li>-->
+			<!--<li id="findUs" class="contactMenuItem">
+				<a href="#">
+					<img src="images/findus.jpg" title="Find us">
+				</a>
+			</li>
+			<li id="contactUs" class="contactMenuItem">
+				<a href="#">
+					<img src="images/contact.jpg" title="Contact us">
+				</a>
+			</li>-->
+		</ul>
+	</div>
+	<div id="welcomeBanner">
+		<div id="bannerTopLeft">
+			<span id="welcomeMessage">Welcome to <span id="pllText">Permabond Laminates Ltd</span></span>
+			<span id="welcomeTagLine">"Where the possibilities are endless"</span>
+		</div>
+		<!--<div id="bannerTopRight" class="bannerTopRightImage">
+		</div>-->
+	</div>
+	<div id="outerContainer">
+		<ul id="headerItems">
+			<li class="sectionItem">
+				<div onmouseover="showNavDesc('mainDesc1')" onmouseout="hideNavDesc('mainDesc1')">
+					<span onclick="clickElement('topOne')" class="menuDesc1">Health care and Education</span>
+					<a href="dept1.html">
+						<img id="topOne" src="images/20140411_145449.jpg" alt="Go to W3Schools!">
+					</a>
+				</div>
+				<!--<div onmouseover="showNavDesc('mainDesc1')" onmouseout="hideNavDesc('mainDesc1')" id="mainDesc1" class="hideDesc">
+				<span>Health care and Education</span>
+				<ul class="subMenu">
+						<li><a href="">Menu item 1</a></li>
+						<li><a href="">Menu item 2</a></li>
+						<li><a href="">Menu item 3</a></li>
+						<li><a href="">Menu item 4</a></li>
+						<li><a href="">Menu item 5</a></li>
+					</ul>
+				</div>-->
+			</li>
+			<li class="sectionItem">
+				<div onmouseover="showNavDesc('mainDesc2')" onmouseout="hideNavDesc('mainDesc2')">
+					<span onclick="clickElement('topTwo')" class="menuDesc1">Bespoke services</span>
+					<a href="dept2.html">
+						<img id="topTwo" src="images/boardroom1.jpg" alt="Go to W3Schools!">
+					</a>
+				</div>
+				<!--<div onmouseover="showNavDesc('mainDesc2')" onmouseout="hideNavDesc('mainDesc2')" id="mainDesc2" class="hideDesc">
+					<span>Bespoke services</span>
+					<ul class="subMenu">
+						<li><a href="">Menu item 1</a></li>
+						<li><a href="">Menu item 2</a></li>
+						<li><a href="">Menu item 3</a></li>
+						<li><a href="">Menu item 4</a></li>
+						<li><a href="">Menu item 5</a></li>
+					</ul>
+				</div>-->
+			</li>
+			<!--<li class="sectionItem">
+				<div onmouseover="showNavDesc('mainDesc3')" onmouseout="hideNavDesc('mainDesc3')">
+					<span onclick="clickElement('topThree')" class="menuDesc1">Dept 3</span>			
+					<a href="dept3.html">
+						<img id="topThree" src="images/dsc_0018.jpg" alt="Go to W3Schools!">
+						<span class="menuDesc2"></span>
+					</a>
+				</div>
+				<div onmouseover="showNavDesc('mainDesc3')" onmouseout="hideNavDesc('mainDesc3')" id="mainDesc3" class="hideDesc">
+				<span>Dept 3 - brief description</span>
+				<ul class="subMenu">
+						<li><a href="">Menu item 1</a></li>
+						<li><a href="">Menu item 2</a></li>
+						<li><a href="">Menu item 3</a></li>
+						<li><a href="">Menu item 4</a></li>
+						<li><a href="">Menu item 5</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="sectionItem">
+				<div onmouseover="showNavDesc('mainDesc4')" onmouseout="hideNavDesc('mainDesc4')">
+					<span onclick="clickElement('topFour')" class="menuDesc1">Dept 4</span>
+					<a href="dept4.html">
+						<img id="topFour" src="images/dsc_0025.jpg" alt="Go to W3Schools!">
+						<span class="menuDesc2"></span>
+					</a>
+				</div>
+				<div onmouseover="showNavDesc('mainDesc4')" onmouseout="hideNavDesc('mainDesc4')" id="mainDesc4" class="hideDesc">
+				<span>Dept 4 - brief description</span>
+				<ul class="subMenu">
+						<li><a href="">Menu item 1</a></li>
+						<li><a href="">Menu item 2</a></li>
+						<li><a href="">Menu item 3</a></li>
+						<li><a href="">Menu item 4</a></li>
+						<li><a href="">Menu item 5</a></li>
+					</ul>
+				</div>
+			</li>-->
+		</ul>
+		<ul id="bottomSection">
+			<li id="bottomSectionItem1" class="bottomSectionItem">
+				<p>Here at Permabond Laminates Ltd we manufacture all washroom products for use in commercial washrooom refurbishments. We can offer our Eco low budget toilet cubicle systems to premium toilet cubicles. We can manufactur compact grade laminate cubicles which is ideal for shower 	cubicles.</p><p>We can provide you with matching vanity units and IPS panelling systems to complete your washroom. We supply school toilets, office toilets, public toilets, hospitals and lots more public and commercial buildings.</p>
+				<p>We believe our strength is quick response lead times, delivering nationwide daily so you can complete your project on time.</p>
+				<p>At Permabond Laminates Ltd we have a wide range of coulours and textures, create a unique environment where you can unleash your creativity. Your kitchen can be a unique space harmoniously integrated with custom made style thanks to Permabond Laminates Ltd. Our aim is to provide you with your dream kitchen and not to force you to make compromises.</p>
+				<p>Fantastic range of Plain Colours, Patterns, Woodgrain, Metallic and Real Wood Veneers, from the industrie's leading suppliers. This enables our customers to benefit from better access to more products, all under one roof.</p>
+				<p>A comprehensive portfolio of work surfaces from spanning premium materials through to competitively proces lanimate brands.</p>
+			</li>			
+		</ul>
+	</div>
+	</div>
+	<div id="bottomCornerImage"></div>
+	<footer id="bottomFooter"></footer>
+
+</body></html>

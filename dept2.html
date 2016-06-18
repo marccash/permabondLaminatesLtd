@@ -1,0 +1,84 @@
+<html><head>
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="js/core.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="mobileMenu"><a onclick="mmenu();"><img src="images/mmenu.png"></a>
+		<div id="mmenu" class="closeMMenu">
+			<ul id="mmList">
+				<li onclick="close_mmenu();" class="mmitemMainImage">
+					<a href="http://formica.com" target="_blank"><img src="images/formicalogo.png" title="Formica"></a>
+					<a href="http://polyrey.com" target="_blank"><img src="images/polyreylogo.jpg"  title="Polyrey"></a>
+				</li>
+				<li onclick="close_mmenu();" class="mmitemMain Home"><a href="index.html">Home</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain contactUs"><a onclick="toggleContactPane('contact')" href="#">Contact us</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain findUs"><a onclick="toggleContactPane('map')" href="#">Find us</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain"><a href="dept1.html">Health care and Education</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 1</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 2</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 3</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 4</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 5</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain"><a href="dept2.html">Bespoke services</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 1</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 2</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 3</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 4</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 5</a></li>
+				<!--<li onclick="close_mmenu();" class="mmitemMain"><a href="dept3.html">Dept 3</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 1</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 2</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 3</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 4</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 5</a></li>
+				<li onclick="close_mmenu();" class="mmitemMain"><a href="dept4.html">Dept 4</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 1</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 2</a></li>
+				<li onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 3</a></li>
+				<li style="margin-bottom:10px" onclick="close_mmenu();" class="mmitem"><a href="#">Menu item 4</a></li>-->
+			</ul>
+		</div>
+	</div>
+	<div id="surround">
+	<div id="contactPane"><span id="closeContactPane" onclick="toggleContactPane()"><img src="images/close.jpg"></span><iframe id="contactFrame" style="display: none;"></iframe></div>
+	<div id="topCornerImage"></div>
+	<div><a  id="formicaLink" href="http://www.formica.com" title="Formica"></a></div>
+	<div><a  id="polyreyLink" href="http://www.polyrey.com" title="Polyrey"></a></div>
+	<div id="topHeader"><a href="index.html" title="Permabond Laniates Ltd"><img id="logo" src="images/permabondlogo.png"></a></div>
+	<div id="contactMenu">
+		<ul id="contactMenuList">
+			<li class="navTop"><a onclick="toggleContactPane('contact')" href="#">Contact us</a></li>
+			<li class="navTop"><a onclick="toggleContactPane('map')" href="#">Find us</a></li>
+			<li class="navTop"><a href="index.html">Home</a></li>
+			<li class="navTop"><a href="dept1.html">Health care and Education</a></li>
+			<!--<li class="navTop"><a href="dept3.html">Dept 3</a></li>
+			<li class="navTop"><a href="dept4.html">Dept 4</a></li>-->
+			<!--<li id="findUs" class="contactMenuItem">
+				<a href="#">
+					<img src="images/findus.jpg" title="Find us">
+				</a>
+			</li>
+			<li id="contactUs" class="contactMenuItem">
+				<a href="#">
+					<img src="images/contact.jpg" title="Contact us">
+				</a>
+			</li>-->
+		</ul>
+	</div>
+	<div id="welcomeBanner">
+		<div id="bannerTopLeft">
+			<span id="welcomeMessage">Bespoke services</span>
+		</div>
+		<!--<div id="bannerTopRight" class="bannerTopRightImage">
+		</div>-->
+	</div>
+	<div id="outerContainer">
+	<p>Bespoke services</p>
+
+	</div>
+	</div>
+	<div id="bottomCornerImage"></div>
+	<footer id="bottomFooter"></footer>
+
+</body></html>
