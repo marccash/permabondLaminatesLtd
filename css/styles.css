@@ -4,10 +4,6 @@
 		/* background-color: #0030A2; */
 	}
 
-	#pllText {
-		font-size: 2rem;
-	}
-
 	
 	#contactFrame {
 		width:100%;
@@ -56,6 +52,16 @@
 	}
 
 	@media screen and (max-width: 1400px) {
+
+		#welcomeTagLine {
+			position: relative;
+			color: #ffffff;
+			top: 5rem;
+			left: 400px;
+			font-size: 2.0rem;
+			font-style: italic;
+			z-index: 2;
+		}
 
 		#headerItems li {
 			display: inline-block;
@@ -115,6 +121,10 @@
 
 	@media screen and (max-width: 700px) {
 
+		#pllText {
+			font-size: 1.2rem;
+		}
+
 		#headerItems li {
 			display: inline-block;
 			width: 100%;
@@ -122,13 +132,13 @@
 		}
 
 		#welcomeTagLine {
-			position: relative;
-			color: #ffffff;
-			top: 5rem;
-			left: -400px;
-			font-size: 2rem;
-			font-style: italic;
-			z-index: 2;
+	    	position: relative;
+    		color: #ffffff;
+		    top: 2rem;
+		    left: 70px;
+		    font-size: 2rem;
+		    font-style: italic;
+		    z-index: 2;
 		}
 
 		#contactPane[is-active] {
@@ -163,7 +173,7 @@
 		#bottomSection {
 			padding: 10px;
 		}
-		span#welcomeMessage {
+		#welcomeMessage {
 			font-size: 11pt;
 		}
 		.subMenu li a {
@@ -187,6 +197,14 @@
 	/* Smallest */
 	@media screen and (max-width: 400px) {
 
+		div ul li div {
+	    	line-height:	2em;
+		}
+
+		#pllText {
+			font-size: 1.2rem;
+		}
+
 		#headerItems li {
 			min-width: 280px;
 		/*border: solid 1px black;*/
@@ -195,8 +213,7 @@
 		#welcomeTagLine {
 			position: relative;
 			color: #ffffff;
-			top: 5rem;
-			left: -400px;
+			left: 50px;
 			font-size: 1rem;
 			font-style: italic;
 			z-index: 2;
@@ -248,6 +265,10 @@
 	/*Middle size*/
 	@media screen and (min-width: 700px) {
 
+		#pllText {
+			font-size: 1.6rem;
+		}
+
 		#headerItems li {
 			display: inline-block;
 			width: 100%;
@@ -257,8 +278,8 @@
 		#welcomeTagLine {
 			position: relative;
 			color: #ffffff;
-			top: 4rem;
-			left: -400px;
+			top: 2rem;
+			left: 200px;
 			font-size: 2rem;
 			font-style: italic;
 			z-index: 2;
@@ -299,7 +320,7 @@
 		#bottomSection {
 			padding: 0px;
 		}
-		span#welcomeMessage {
+		#welcomeMessage {
 			font-size: 18pt;
 		}
 		.subMenu li a {
@@ -335,7 +356,26 @@
 
 
 	/* Largest */
-	@ screen and (min-width: 1400px) {
+	@media screen and (min-width: 1400px) {
+
+		div.menuDesc1  {
+		    width: 280px;
+		   	min-height: 130px;
+	    	opacity: .5;
+    		background-color: black;
+    		position: absolute;
+	    	bottom: 380px;
+    		color: white;
+	    	z-index: 100;
+    		margin-left: auto;
+	    	margin-right: auto;
+    		border-radius: 10px 10px 10px 10px !important;
+		}
+
+
+		#pllText {
+			font-size: 2rem;
+		}
 
 		#welcomeTagLine {
 			position: relative;
@@ -572,19 +612,6 @@
     /*background-color: #0030A2;*/
 }
 
-	span.menuDesc1  {
-	    width: 280px;
-    	min-height: 130px;
-    	opacity: .5;
-    	background-color: black;
-    	position: absolute;
-    	bottom: 380px;
-    	color: white;
-    	z-index: 100;
-    	margin-left: auto;
-    	margin-right: auto;
-    	border-radius: 10px 10px 10px 10px !important;
-	}
 
 	.hideDesc {
 		display :none;
@@ -707,7 +734,7 @@
 		align-items: center;
 	}
 
-	span#welcomeMessage {
+	#welcomeMessage {
 		font-weight: 300;
 		color: white;
 		margin-left:15px;
@@ -782,7 +809,7 @@
 		margin-right:auto;
 	}
 
-	span.menuDesc1 {
+	div.menuDesc1 {
 		cursor: pointer;
 	}
 
