@@ -361,10 +361,10 @@
 		div.menuDesc1  {
 		    width: 280px;
 		   	min-height: 130px;
-	    	opacity: .5;
+	    	opacity: 1;
     		background-color: black;
-    		position: absolute;
-	    	bottom: 380px;
+    		/*position: absolute;
+	    	bottom: 380px;*/
     		color: white;
 	    	z-index: 100;
     		margin-left: auto;
