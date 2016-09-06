@@ -163,6 +163,8 @@
 		#bottomSectionItem1 {
 			border-right: 0px;
 			border-bottom: 3px solid black;
+			height: 100%;
+    		column-count: 1;
 		}
 
 		#bottomSectionItem2 {
@@ -359,7 +361,7 @@
 	@media screen and (min-width: 1400px) {
 
 		div.menuDesc1  {
-		    width: 280px;
+		    width: 480px;
 		   	min-height: 130px;
 	    	opacity: 1;
     		background-color: black;
@@ -369,7 +371,7 @@
 	    	z-index: 100;
     		margin-left: auto;
 	    	margin-right: auto;
-    		border-radius: 10px 10px 10px 10px !important;
+    		/*border-radius: 10px 10px 10px 10px !important;*/
 		}
 
 
@@ -378,10 +380,10 @@
 		}
 
 		#welcomeTagLine {
-			position: relative;
+			/*position: relative;*/
 			color: #ffffff;
-			top: 5rem;
-			left: -400px;
+			/*top: 5rem;*/
+			/*left: -400px;*/
 			font-size: 2rem;
 			font-style: italic;
 			z-index: 2;
@@ -552,11 +554,11 @@
     	margin-left: auto;
     	margin-right: auto;
     	text-align: center;
-		/*height: 350px;*/
+		height: 250px;
     	/*height: 100%;*/
        	margin-top: 5px;
        	min-width: 200px;
-		column-count:1;
+		column-count:2;
     }
 
     #seperator {
