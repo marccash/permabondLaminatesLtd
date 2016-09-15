@@ -785,8 +785,8 @@
 	}
 	
 	.sectionItem img {
-		width :99%;
-		height: 220px;
+		/*width :99%;*/
+		height: 290px;
 		-webkit-transition: .2s ease-out;
 		-moz-transition: .2s ease-out;
 		-o-transition: .2 ease-out;
