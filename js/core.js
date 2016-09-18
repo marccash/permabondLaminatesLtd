@@ -1,13 +1,17 @@
 function showNavDesc(id) {
 	navDesc = document.getElementById(id);
- 	navDesc.removeAttribute('class','hideDesc');
-	navDesc.setAttribute('class','showDesc');
+	try {
+ 		navDesc.removeAttribute('class','hideDesc');
+		navDesc.setAttribute('class','showDesc');
+	} catch(ex) {}
 }
 
 function hideNavDesc(id) {
 	navDesc = document.getElementById(id);
-	navDesc.removeAttribute('class','showDesc');
-	 navDesc.setAttribute('class','hideDesc');
+	try {
+		navDesc.removeAttribute('class','showDesc');
+		navDesc.setAttribute('class','hideDesc');
+	} catch(ex) {}
 }
 
 function mmenu() {
@@ -24,8 +28,10 @@ function mmenu() {
 
 function close_mmenu() {
 	navDesc = document.getElementById("mmenu");
-	navDesc.removeAttribute('class','openMMenu');
-	 navDesc.setAttribute('class','closeMMenu');
+	try {
+		navDesc.removeAttribute('class','openMMenu');
+		navDesc.setAttribute('class','closeMMenu');
+	} catch(ex) {}
 }
 
 function toggleContactPane(typeIn) {
