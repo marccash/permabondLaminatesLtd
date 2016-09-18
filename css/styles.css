@@ -794,6 +794,8 @@
 		-o-transition: .2 ease-out;
 		transition: .2s ease-in;
 		box-shadow: 0 0 3pt 2pt black;
+	    width: 99%;
+   		margin-top: 20px;
 	}
 	
 	img#topOne:hover, img#topTwo:hover, img#topThree:hover, img#topFour:hover  {
